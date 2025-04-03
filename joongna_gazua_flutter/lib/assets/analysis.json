@@ -1,0 +1,237 @@
+{
+  "total_reviews": 1000,
+  "overall_counts": {
+    "1": 284,
+    "2": 35,
+    "3": 61,
+    "4": 92,
+    "5": 528
+  },
+  "analysis": {
+    "1": {
+      "review_count": 10,
+      "top_words": [
+        {
+          "word": "문자",
+          "frequency": 6
+        },
+        {
+          "word": "사용",
+          "frequency": 5
+        },
+        {
+          "word": "거래",
+          "frequency": 5
+        },
+        {
+          "word": "업데이트",
+          "frequency": 5
+        },
+        {
+          "word": "생각",
+          "frequency": 2
+        },
+        {
+          "word": "사진",
+          "frequency": 2
+        },
+        {
+          "word": "보기",
+          "frequency": 2
+        },
+        {
+          "word": "중고",
+          "frequency": 2
+        },
+        {
+          "word": "판매",
+          "frequency": 2
+        },
+        {
+          "word": "전화",
+          "frequency": 2
+        }
+      ]
+    },
+    "2": {
+      "review_count": 10,
+      "top_words": [
+        {
+          "word": "업데이트",
+          "frequency": 4
+        },
+        {
+          "word": "버그",
+          "frequency": 3
+        },
+        {
+          "word": "알림",
+          "frequency": 3
+        },
+        {
+          "word": "화면",
+          "frequency": 3
+        },
+        {
+          "word": "상품",
+          "frequency": 3
+        },
+        {
+          "word": "물건",
+          "frequency": 3
+        },
+        {
+          "word": "문제",
+          "frequency": 3
+        },
+        {
+          "word": "고객",
+          "frequency": 2
+        },
+        {
+          "word": "시간",
+          "frequency": 2
+        },
+        {
+          "word": "제때",
+          "frequency": 2
+        }
+      ]
+    },
+    "3": {
+      "review_count": 10,
+      "top_words": [
+        {
+          "word": "사진",
+          "frequency": 6
+        },
+        {
+          "word": "채팅",
+          "frequency": 5
+        },
+        {
+          "word": "어플",
+          "frequency": 4
+        },
+        {
+          "word": "판매",
+          "frequency": 3
+        },
+        {
+          "word": "수정",
+          "frequency": 3
+        },
+        {
+          "word": "문의",
+          "frequency": 3
+        },
+        {
+          "word": "구매",
+          "frequency": 3
+        },
+        {
+          "word": "사용",
+          "frequency": 3
+        },
+        {
+          "word": "완료",
+          "frequency": 2
+        },
+        {
+          "word": "중고나라",
+          "frequency": 2
+        }
+      ]
+    },
+    "4": {
+      "review_count": 10,
+      "top_words": [
+        {
+          "word": "사용",
+          "frequency": 2
+        },
+        {
+          "word": "카페",
+          "frequency": 2
+        },
+        {
+          "word": "쿠폰",
+          "frequency": 2
+        },
+        {
+          "word": "다만",
+          "frequency": 1
+        },
+        {
+          "word": "가게",
+          "frequency": 1
+        },
+        {
+          "word": "소개",
+          "frequency": 1
+        },
+        {
+          "word": "글자",
+          "frequency": 1
+        },
+        {
+          "word": "제한",
+          "frequency": 1
+        },
+        {
+          "word": "어플",
+          "frequency": 1
+        },
+        {
+          "word": "횟수",
+          "frequency": 1
+        }
+      ]
+    },
+    "5": {
+      "review_count": 10,
+      "top_words": [
+        {
+          "word": "업데이트",
+          "frequency": 2
+        },
+        {
+          "word": "처음",
+          "frequency": 1
+        },
+        {
+          "word": "구매",
+          "frequency": 1
+        },
+        {
+          "word": "최근",
+          "frequency": 1
+        },
+        {
+          "word": "버벅거림",
+          "frequency": 1
+        },
+        {
+          "word": "개발",
+          "frequency": 1
+        },
+        {
+          "word": "다시",
+          "frequency": 1
+        },
+        {
+          "word": "세상",
+          "frequency": 1
+        },
+        {
+          "word": "배달",
+          "frequency": 1
+        },
+        {
+          "word": "일주일",
+          "frequency": 1
+        }
+      ]
+    }
+  }
+}
