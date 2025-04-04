@@ -21,4 +21,9 @@ class AppColors {
   // 공통 색상
   static const Color white = Colors.white;
   static const Color black = Colors.black;
+
+  // skeleton 색상
+  static const Color kSkeletonCardColor = Colors.white;
+  static Color kSkeletonElementColor = Colors.grey[400]!;
+  static Color kSkeletonElementLightColor = Colors.grey[300]!;
 }

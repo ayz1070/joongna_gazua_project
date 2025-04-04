@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:joongna_gazua_flutter/features/analysis/presentation/page/skeleton_analysis_page.dart';
 import 'package:joongna_gazua_flutter/features/analysis/presentation/widget/analysis_list_view.dart';
 import '../../../../core/di/analysis_module.dart';
 import '../../../../core/theme/app_text_styles.dart';
@@ -19,7 +20,7 @@ class AnalysisPage extends ConsumerWidget {
       ),
       body: () {
         if (state.isLoading) {
-          return const Center(child: CircularProgressIndicator());
+          return SkeletonAnalysisPage();
         } else if (state.error != null) {
           return Center(child: Text('Error: ${state.error}'));
         } else {
