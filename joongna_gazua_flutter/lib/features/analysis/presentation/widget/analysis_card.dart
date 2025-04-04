@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../../../../core/theme/app_text_styles.dart';
 import '../../domain/entity/rating_analysis.dart';
 import 'pie_chart_widget.dart';
+import 'rank_item.dart';
 
 class AnalysisCard extends StatelessWidget {
   final String score;
@@ -34,18 +35,18 @@ class AnalysisCard extends StatelessWidget {
               height: 240,
               child: PieChartWidget(topWords: ratingAnalysis.topWords),
             ),
-            const SizedBox(height: 16),
+            const SizedBox(height: 32),
             Text(
-              '단어 랭킹',
+              '단어 TOP 랭킹',
               style: AppTextStyles.headline3,
             ),
+            const SizedBox(height: 16),
+            // RankItem 위젯을 사용하여 순위별 단어 항목 표시
             ...List.generate(ratingAnalysis.topWords.length, (index) {
               final topWord = ratingAnalysis.topWords[index];
-              return ListTile(
-                dense: true,
-                leading: Text('${index + 1}.'),
-                title: Text(topWord.word),
-                trailing: Text('${topWord.frequency}회'),
+              return RankItem(
+                rank: index + 1,
+                topWord: topWord,
               );
             }),
           ],
